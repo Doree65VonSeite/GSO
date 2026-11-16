@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <title>Verifizierung</title>
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <!-- Überschrift -->
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">Verifizierung</h1>
+            <p class="text-muted">
+                Bestätige deine E-Mail-Adresse.
+            </p>
+        </div>
+
+        <!-- Verifizierung -->
+        <div class="card shadow-sm mx-auto" style="max-width: 500px;">
+            <div class="card-body p-4">
+
+                <p class="mb-4">
+                    Wir haben einen einmaligen Code an
+                    <strong>{E-Mail-Adresse}</strong> gesendet.
+                </p>
+
+                <!-- Code -->
+                <div class="mb-4">
+                    <label class="form-label">Verifizierungscode</label>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Code eingeben">
+                </div>
+
+                <!-- Bestätigen -->
+                <div class="d-grid mb-3">
+                    <button type="button" class="btn btn-primary">
+                        Bestätigen
+                    </button>
+                </div>
+
+                <!-- Neuen Code anfordern -->
+                <div class="text-center">
+                    <span class="text-muted">Keinen Code erhalten?</span>
+                    <br>
+                    <button type="button"
+                            class="btn btn-link text-decoration-none">
+                        Neuen Code anfordern
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
