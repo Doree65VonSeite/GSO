@@ -1,1 +1,1 @@
-# GSO
+# GSO - miniprojekt  - IHK Berichtsheft
