@@ -1,1 +1,2 @@
-# GSO - miniprojekt  - IHK Berichtsheft
+# GSO 
+Diyar weis was mardeli bedeutet
