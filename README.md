@@ -1,1 +1,1 @@
-# GSO
+# GSO - Projektarbeit Berichtsheft IHK
